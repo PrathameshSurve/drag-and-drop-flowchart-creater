@@ -137,3 +137,17 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+
+# Ignore node_modules in React frontend
+frontend/node_modules/
+
+# Ignore Python cache and environment in backend
+backend/__pycache__/
+backend/*.pyc
+backend/env/
+backend/.venv/
+backend/.env
+
+# Ignore OS files
+.DS_Store
