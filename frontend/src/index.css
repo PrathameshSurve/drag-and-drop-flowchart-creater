@@ -11,3 +11,38 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.toolbar {
+  overflow-y: auto;
+  max-height: 100%;
+}
+
+.navButton {
+  background-color: #1e3a8a;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  margin: 0 4px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.navButton:hover {
+  background-color: #3b82f6;
+  transform: translateY(-2px);
+}
+
+.nodeBox {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 8px;
+  background-color: rgb(218, 187, 200);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  transition: box-shadow 0.3s;
+}
+
+.nodeBox:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.9);
+}

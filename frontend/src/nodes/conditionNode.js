@@ -14,6 +14,6 @@ export const ConditionNode = ({ id, data }) => (
       { type: 'source', position: 'Right', id: `${id}-false` }
     ]}
     inputs={[{ id: 'input1' }, { id: 'input2' }]}
-    outputs={[{ id: 'output 1' }, { id: 'output 1' }]}
+    outputs={[{ id: 'output 1' }, { id: 'output 2' }]}
   />
 );

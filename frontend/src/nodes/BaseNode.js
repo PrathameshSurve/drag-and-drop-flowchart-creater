@@ -10,7 +10,7 @@ export const BaseNode = ({
   style = {}
 }) => {
   return (
-    <div style={{ width: 200, minHeight: 80, border: '1px solid black', padding: '4px', ...style }}>
+    <div style={{ width: 200, minHeight: 80, border: '1px solid black', padding: '4px', ...style }} className='nodeBox'>
       {/* Handles for inputs */}
       {inputs.map((input, index) => (
         <Handle
